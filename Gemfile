@@ -24,10 +24,10 @@ gem 'encrypto_signo'
 gem 'nio4r'
 gem 'mongo'
 gem 'sentry-raven'
-gem 'gelf'
+gem 'gelf', '>= 3.0.0'
 gem 'moonrope'
 gem 'jwt'
-gem 'createsend', '~> 4.0'
+gem 'createsend', '~> 4.1', '>= 4.1.2'
 gem 'acme-client'
 gem 'highline', :require => true
 
