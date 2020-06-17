@@ -25,17 +25,17 @@ gem 'nio4r'
 gem 'mongo'
 gem 'sentry-raven'
 gem 'gelf'
-gem 'moonrope'
+gem 'moonrope', '>= 2.0.1'
 gem 'jwt'
 gem 'createsend', '~> 4.0'
 gem 'acme-client'
 gem 'highline', :require => true
 
 group :development, :assets do
-  gem 'sass-rails', '~> 5.0'
+  gem 'sass-rails', '~> 5.0', '>= 5.0.7'
   gem 'uglifier', '>= 1.3.0'
-  gem 'coffee-rails', '~> 4.2'
-  gem 'jquery-rails'
+  gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+  gem 'jquery-rails', '>= 4.4.0'
 end
 
 group :development, :test do
@@ -45,7 +45,7 @@ end
 group :development do
   gem 'annotate'
   gem 'rspec'
-  gem 'rspec-rails'
-  gem "factory_girl_rails", "~> 4.0"
+  gem 'rspec-rails', '>= 3.7.2'
+  gem "factory_girl_rails", "~> 4.9", ">= 4.9.0"
   gem "database_cleaner"
 end
